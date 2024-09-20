@@ -40,8 +40,15 @@ header {
   font-weight: 500;
 }
 
-main {
-  padding: 0 0 30px 0;
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-temperature {
+  padding: 30px;
+  font-size: 50px;
+  font-weight: 500;
 }
 
 footer {
